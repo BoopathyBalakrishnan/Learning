@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daomapping>
+    <!-- db-Database, mk-mock, ws-webservice -->
+    <daoconfig daoKey="tneaLegacy" 
+        dbImplClass="com.blx.app.adrd.tnprofcounseling.tnea.legacy.service.dao.TNEALegacyDBDAOImpl"
+        mkImplClass="com.blx.app.adrd.tnprofcounseling.tnea.legacy.service.dao.TNEALegacyMockDAOImpl"
+        wsImplClass="com.blx.app.adrd.tnprofcounseling.tnea.legacy.service.dao.TNEALegacyWebServiceDAOImpl"
+        implSel="db" />
+    
+    <daoconfig daoKey="tneaRT" 
+        dbImplClass="com.blx.app.adrd.tnprofcounseling.tnea.legacy.service.dao.TNEALegacyDBDAOImpl"
+        mkImplClass="com.blx.app.adrd.tnprofcounseling.tnea.legacy.service.dao.TNEALegacyMockDAOImpl"
+        wsImplClass="com.blx.app.adrd.tnprofcounseling.tnea.legacy.service.dao.TNEALegacyWebServiceDAOImpl"
+        implSel="db" />
+</daomapping>

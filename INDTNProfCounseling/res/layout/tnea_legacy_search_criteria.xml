@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/srchcriteriaMainLinLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/tneaLegacySrchcriteriaLinLayoutInner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/tneaLegacySrchcriteriaLinLayoutInner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tneaLegacySCCutOffTVId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tnea_legacy_sc_cutOffTv"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/tneaLegacySCCutOffETId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/tneaLegacySCClgCodeTVId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tnea_legacy_sc_clgCodeTv"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/tneaLegacySCClgCodeETId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/tneaLegacySCDprtTVId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tnea_legacy_sc_dprtTv"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Spinner
+                android:id="@+id/tneaLegacySCDprtSpnrId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/tnea_legacy_sc_department" />
+
+            <TextView
+                android:id="@+id/tneaLegacySCCtgryTVId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tnea_legacy_sc_ctgryTv"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Spinner
+                android:id="@+id/tneaLegacySCCtgrySpnrId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/tnea_legacy_sc_category" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tneaLegacySCYrsTVId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tnea_legacy_sc_yearsTv"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/tneaLegacySCYear1ChkBoxId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tnea_legacy_sc_year1Chk1" />
+
+                <CheckBox
+                    android:id="@+id/tneaLegacySCYear2ChkBoxId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:checked="true"
+                    android:text="@string/tnea_legacy_sc_year2Chk2" />
+
+                <CheckBox
+                    android:id="@+id/tneaLegacySCYear3ChkBoxId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/tnea_legacy_sc_year3Chk3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp" >
+
+                <Button
+                    android:id="@+id/tneaLegacySCSearchBtnId"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="54dp"
+                    android:text="@string/tnea_legacy_sc_searchBtn" />
+
+                <Button
+                    android:id="@+id/tneaLegacySCClearBtnId"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="44dp"
+                    android:text="@string/tnea_legacy_sc_clearBtn" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

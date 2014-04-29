@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tnProfCounselingMainLinLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/tnProfCounsHomeTNEAPresentBtnId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/patched_button"
+            android:text="@string/tn_counseling_home_tnea_present" />
+
+        <Button
+            android:id="@+id/tnProfCounsHomeTNEALegacyBtnId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/patched_button"
+            android:text="@string/tn_counseling_home_tnea_legacy" />
+    </LinearLayout>
+
+</LinearLayout>

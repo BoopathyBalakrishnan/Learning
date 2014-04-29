@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">INDTNProfCounseling</string>
+    <string name="title_tn_counseling_main">TN Counseling Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_tnea_legacy_search_criteria">TNEA - Legacy Search</string>
+    <string name="title_tnea_legacy_search_results">TNEA - Legacy Search Results</string>
+
+    <string-array name="tnea_legacy_sc_department">
+        <item>Please Select</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+    </string-array>
+    <string-array name="tnea_legacy_sc_category">
+        <item>Please Select</item>
+        <item>OC</item>
+        <item>BC</item>
+        <item>MBC</item>
+    </string-array>
+
+    <!-- TN Counseling Home page -->
+    <string name="tn_counseling_home_tnea_present">TNEA-Check 2013 Seat Availablity</string>
+    <string name="tn_counseling_home_tnea_legacy">TNEA-Suggest Engg Colleges</string>
+    
+    <!-- search_criteria page Names -->
+    <string name="tnea_legacy_sc_cutOffTv">CutOff</string>
+    <string name="tnea_legacy_sc_clgCodeTv">College Code</string>
+    <string name="tnea_legacy_sc_dprtTv">Department</string>
+    <string name="tnea_legacy_sc_ctgryTv">Category</string>
+    <string name="tnea_legacy_sc_yearsTv">Use Selected Years</string>
+    <string name="tnea_legacy_sc_year1Chk1">2010</string>
+    <string name="tnea_legacy_sc_year2Chk2">2011</string>
+    <string name="tnea_legacy_sc_year3Chk3">2012</string>
+    <string name="tnea_legacy_sc_searchBtn">Search</string>
+    <string name="tnea_legacy_sc_clearBtn">Clear</string>
+
+    <!-- search_result_btn_layout Page Names -->
+    <string name="tnea_legacy_sr_backBtn">Back</string>
+    <string name="tnea_legacy_sr_closeBtn">Close</string>
+
+</resources>
